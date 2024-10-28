@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "pythonhardmode"
+version = "0.0.1"
+authors = [
+  { name="Nguyen Hoang Quoc Anh", email="Hoangquocanhmob@icloud.com" },
+]
+description = "turns on hard mode for python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License ::CC BY-SA 4.0 ",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
